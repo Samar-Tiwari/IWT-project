@@ -1,0 +1,260 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4caf50;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.player-list div {
+  background-color: #cbe8d8;
+  color: #181717;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.team-display {
+  margin-top: 20px;
+}
+
+.team-display div {
+  background-color: #718392;
+  color: #171515;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  input,
+  select,
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 40px;
+  color: rgb(211, 205, 206);
+  width: 1302px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.logo:hover {
+  color: rgb(55, 174, 93);
+  transition: color 0.2s ease;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4caf50;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+h1 {
+  color: #4caf50;
+}
+
+/* footer {
+  background-color: #f0eded;
+  color: #0a0404;
+  padding: 15px 0;
+  text-align: center;
+  width: 507px;
+} */
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  justify-content: space-around;
+
+}
+footer ul {
+  display: flex;
+  gap: 20px;
+  height: 20px;
+  width: 20px;
+  align-items: center;
+ 
+
+}
+footer ul li {
+  height: 20px;
+  width: 30px;
+  padding: 0px;
+  list-style: none;
+  align-content: center;
+  text-align: center;
+  
+  
+}
+
+.contact {
+  font-size: 20px;
+}
+
+
+.player-item {
+  position: relative;
+}
+
+.remove-hover::after {
+  content: "Click to remove ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: #191616;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.remove-hover:hover::after {
+  opacity: 1;
+}
+
+#pp{
+  padding-left: 35px;
+  font-weight: 600;
+
+}
+
+
+button {
+  background-color: #347134;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+button.download-btn {
+  background-color: #2196f3; 
+}
+
+button.download-btn:hover {
+  background-color: #0d47a1; 
+}
+
+

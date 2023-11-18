@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <title>Cricket Team Maker</title>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">TeamCric</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h1>Build Your Cricket Team</h1>
+    <div class="input-container">
+      <input type="text" id="playerName" placeholder="Enter player name">
+    
+      <select id="playerPosition">
+        <option value="bat">Batsman</option>
+        <option value="bowl">Bowler</option>
+        <option value="wc">Wicketkeeper</option>
+        <option value="ar">All-Rounder</option>
+      </select>
+      <button onclick="addPlayer()">Add Player</button>
+    </div>
+    <div id="playerList" class="player-list"></div>
+    <button onclick="createTeam()">Create Team</button>
+    <div id="teamDisplay" class="team-display"></div>
+    <!-- ... (existing HTML) -->
+<button onclick="downloadTeam()" class="download-btn">Download Team</button>
+<!-- ... (existing HTML) -->
+
+  </div>
+  <footer>
+    <div class="contact">
+      <p id="pp">Contact Us: </p>
+      <ul>
+        <li><a href="https://github.com/Samar-Tiwari"><i class="fa-brands fa-github"></i></a> </li>
+        <li> <a href="https://www.linkedin.com/in/samar-tiwari-a08ba4249/"><i class="fa-brands fa-linkedin"></i>
+            </a> </li>
+        <li><a href="#"> <i class="fa-brands fa-instagram"></i></a> </li>
+    </ul>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
